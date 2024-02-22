@@ -13,6 +13,7 @@ body {
   .btn-container {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   
   .yellow {
@@ -38,4 +39,13 @@ body {
   .userflash {
     background-color: green;
   }
+
+  @media only screen and (max-width: 600px) {
+    .btn {
+      width: 100px;
+      height: 100px;
+      margin: 1rem;
+    }
+  }
+
   
